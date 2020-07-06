@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#291c63</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorBackgroundLoop">#F9FAFB</color>
+    <color name="colorOffwhite">#00000000</color>
+
+    <color name="colorLight">#FAFAFF</color>
+
+    <color name="editBoxSolidLight">#f7f7f7</color>
+    <color name="buttonLight">#F6F6FD</color>
+    <color name="buttonDark">#2a1d64</color>
+    <color name="colorTextLight">#F4F5F6</color>
+    <color name="colorTextDark">#201F1F</color>
+    <color name="colorTextHint">#B3B3B3</color>
+    <color name="colorAsh">#dbdbdb</color>
+    <color name="colorGold">#fab40c</color>
+    <color name="colorGreen">#51CC57</color>
+    <color name="colorRed">#EF5350</color>
+
+
+
+    <color name="colorBackground">#f3f3f3</color>
+    <color name="colorBlack">#252a2e</color>
+    <color name="colorStatus">#EDEDEE</color>
+    <color name="colorGrey">#6C6C6C</color>
+    <color name="colorYellow">#FFEE58</color>
+    <color name="error">#EF5350</color>
+    <color name="colorPink">#F48FB1</color>
+    <color name="colorOrange">#FFB74D</color>
+    <color name="colorLighter">#FDFDFD</color>
+    <color name="colorLoop">#19A5B6</color>
+    <color name="colorAccentOld">#004CBF</color>
+    <color name="colorTransparent">#00000000</color>
+
+
+    <color name="colorText">#252525</color>
+    <color name="colorTextPro">#000000</color>
+
+    <color name="colorSkyBlue">#BBDEFB</color>
+    <color name="colorLighterBlue">#66BBDEFB</color>
+    <color name="colorLightestBlue">#38BBDEFB</color>
+
+    <array name="array_dot_active">
+        <item>#291c62</item>
+        <item>#291c62</item>
+        <item>#291c62</item>
+        <item>#291c62</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>#fff</item>
+        <item>#fff</item>
+        <item>#fff</item>
+        <item>#fff</item>
+    </array>
+</resources>

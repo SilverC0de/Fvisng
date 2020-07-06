@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/button_light">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_marginTop="12dp"
+        android:overScrollMode="never">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Online subscriptions made easy"
+                android:gravity="center"
+                android:padding="12dp"
+                android:textColor="@color/colorGrey" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editor"
+                android:layout_margin="8dp"
+                android:id="@+id/vtu_service" />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editor"
+                android:layout_margin="8dp"
+                android:id="@+id/vtu_dropper" />
+
+            <EditText
+                android:id="@+id/vtu_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editor"
+                android:textSize="15sp"
+                android:paddingTop="11dp"
+                android:paddingBottom="11dp"
+                android:layout_margin="8dp"
+                android:paddingStart="8dp"
+                android:inputType="number|text"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextDark" />
+            <EditText
+                android:id="@+id/vtu_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editor"
+                android:textSize="15sp"
+                android:paddingTop="11dp"
+                android:paddingBottom="11dp"
+                android:layout_margin="8dp"
+                android:paddingStart="8dp"
+                android:inputType="number|text"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextDark" />
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/loaner" />
+    <TextView
+        android:id="@+id/err"
+        android:layout_above="@id/vtuuuuuu"
+        android:gravity="end"
+        android:layout_marginEnd="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:layout_margin="12dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/vtuuuuuu"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/button_dark"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/borderlessButtonStyle"/>
+</RelativeLayout>

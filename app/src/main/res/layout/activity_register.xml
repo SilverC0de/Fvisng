@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:overScrollMode="never"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="40dp"
+            android:src="@drawable/close_btn_dark" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Hi there, lets know you."
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:textSize="14sp"
+            android:id="@+id/error"
+            android:textColor="@color/colorPrimaryDark"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerSurname"
+                android:background="@drawable/editor"
+                android:paddingTop="11dp"
+                android:paddingBottom="11dp"
+                android:paddingStart="8dp"
+                android:hint="Surname"
+                android:layout_marginEnd="4dp"
+                android:textSize="15sp"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextDark" />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/registerOthername"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/editor"
+                android:paddingTop="11dp"
+                android:paddingBottom="11dp"
+                android:paddingStart="8dp"
+                android:hint="Other names"
+                android:textColorHint="@color/colorTextHint"
+                android:textColor="@color/colorTextDark" />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerMail"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:background="@drawable/editor"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:layout_margin="8dp"
+            android:paddingStart="8dp"
+            android:hint="Email Address"
+            android:textColorHint="@color/colorTextHint"
+            android:textColor="@color/colorTextDark" />
+        <EditText
+            android:id="@+id/registerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@drawable/editor"
+            android:textSize="15sp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:layout_margin="8dp"
+            android:paddingStart="8dp"
+            android:maxLength="11"
+            android:hint="Phone Number"
+            android:textColorHint="@color/colorTextHint"
+            android:textColor="@color/colorTextDark" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerPassword"
+            android:inputType="textPassword"
+            android:background="@drawable/editor"
+            android:textSize="15sp"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:layout_margin="8dp"
+            android:paddingStart="8dp"
+            android:hint="Password"
+            android:textColorHint="@color/colorTextHint"
+            android:textColor="@color/colorTextDark" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerPass"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            android:background="@drawable/editor"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:layout_margin="8dp"
+            android:paddingStart="8dp"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/colorTextHint"
+            android:textColor="@color/colorTextDark" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:id="@+id/register"
+            android:paddingBottom="10dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_dark"
+            style="?android:attr/borderlessButtonStyle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="@string/agreement"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="80dp"
+            android:textSize="13sp"
+            android:id="@+id/agreementLinks"
+            android:linksClickable="true"
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+</ScrollView>

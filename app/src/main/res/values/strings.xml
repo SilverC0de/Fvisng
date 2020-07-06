@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">FvisNG</string>
+    <string name="agreement"><font color="#5f738c">By continuing, you accept the <b><a href="https://fvisng.com/terms"><font color="#291c62">Fvisng\'s Terms of Service</font></a>, <a href="https://kontribute.com/guide"><font color="#291c62">Community Guidelines, </font></a></b></font><font color="#5f738c"> and </font><b><a href="https://kontribute.com/privacy"><font color="#291c62">Privacy Policy.</font></a></b></string>
+    <string name="welcome_text">You have successfully signed up to <b>Fvisng</b></string>
+    <string name="intro">Here is what <b>Fvisng</b> is all about</string>
+    <string name="bullet">•</string>
+    <string name="naira">&#8358;</string>
+    <string name="facebook_app_id">2482579758722268</string>
+    <string name="fb_login_protocol_scheme">fb2482579758722268</string>
+    <string name="invite_member"><u>Invite Member</u></string>
+    <string name="hstreet">Make payments to <b>High Street Microfinance Bank</b> with the provided details</string>
+
+    <string-array name="marital">
+        <item>Select marital status</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+    </string-array>
+
+    <string-array name="purpose">
+        <item>Select loan purpose</item>
+        <item>Business</item>
+        <item>Education</item>
+        <item>Emergency</item>
+        <item>Medical</item>
+        <item>Travel</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="employ">
+        <item>Select employment status</item>
+        <item>Self employed</item>
+        <item>Employed</item>
+    </string-array>
+
+    <string-array name="duration">
+        <item>Select Loan Duration</item>
+        <item>5 Days</item>
+        <item>14 Days</item>
+        <item>28 Days</item>
+    </string-array>
+
+    <string-array name="bank_codes">
+        <item>00</item>
+        <item>044</item>
+        <item>023</item>
+        <item>063</item>
+        <item>050</item>
+        <item>084</item>
+        <item>070</item>
+        <item>011</item>
+        <item>214</item>
+        <item>058</item>
+        <item>030</item>
+        <item>082</item>
+        <item>014</item>
+        <item>076</item>
+        <item>221</item>
+        <item>068</item>
+        <item>232</item>
+        <item>032</item>
+        <item>033</item>
+        <item>215</item>
+        <item>035</item>
+        <item>057</item>
+    </string-array>
+
+    <string-array name="bank_names">
+        <item>Select Bank</item>
+        <item>Access Bank</item>
+        <item>CitiBank</item>
+        <item>Diamond Bank</item>
+        <item>EcoBank</item>
+        <item>Enterprise Bank</item>
+        <item>Fidelity Bank</item>
+        <item>First Bank</item>
+        <item>FCMB</item>
+        <item>GTBAnk</item>
+        <item>Heritage Bank</item>
+        <item>KeyStone Bank</item>
+        <item>MainStreet Bank</item>
+        <item>Polaris Bank</item>
+        <item>Stanbic IBTC Bank</item>
+        <item>Standard Chartered Bank</item>
+        <item>Sterling Bank</item>
+        <item>Union Bank</item>
+        <item>UBA Bank</item>
+        <item>Unity Bank</item>
+        <item>Wema Bank</item>
+        <item>Zenith Bank</item>
+    </string-array>
+
+    <string-array name="vtu_service">
+        <item>Please choose service</item>
+        <item>Airtime</item>
+        <item>Data Subscription</item>
+        <item>TV Subscription</item>
+        <item>Electricity Payment</item>
+    </string-array>
+
+    <string-array name="netwoek">
+        <item>Mtn</item>
+        <item>Glo</item>
+        <item>9Mobile</item>
+        <item>Airtel</item>
+    </string-array>
+
+    <string-array name="data">
+        <item>MTN N100 30MB - 24hrs</item>
+        <item>MTN N200 100MB -24hrs</item>
+        <item>MTN N500 750MB - 7 Days</item>
+        <item>MTN N1000 1.5GB - 30days</item>
+        <item>MTN N2000 3.5GB - 30days</item>
+        <item>MTN N2000 3.5GB - 30days</item>
+        <item>Glo Data N100 - 105MB - 2 day</item>
+        <item>Glo Data N200 -  350MB - 4 days</item>
+        <item>Glo Data N500 -  1.05GB - 14 days</item>
+        <item>lo Data N1000 -  2.5GB - 30 days</item>
+        <item>Glo Data N2000 -  5.8GB - 30 days</item>
+        <item>Glo Data N2500 -  7.7GB - 30 days</item>
+        <item>Glo Data N3000 –  10GB - 30 days</item>
+        <item>Glo Data N4000 –  13.25GB - 30 days</item>
+        <item>Glo Data N5000 -  18.25GB - 30 days</item>
+        <item>Glo Data N8000 -  29.5GB - 30 days</item>
+        <item>Glo Data N10000 -  50GB - 30 days</item>
+        <item>Glo Data N15000 -  93GB - 30 days</item>
+        <item>Glo Data N18000 -  119GB - 30 days</item>
+        <item>Glo Data N1500 -  4.1GB - 30 days</item>
+        <item>Glo Data N20000 -  138GB - 30 days</item>
+        <item>Airtel 1GB</item>
+        <item>9Mobile 1GB</item>
+    </string-array>
+
+    <string-array name="tv">
+        <item>DStv Access N2000</item>
+        <item>DStv Family N4000</item>
+        <item>GoTV</item>
+        <item>Startimes</item>
+    </string-array>
+
+    <string-array name="nepa">
+        <item>BEDC</item>
+        <item>IKEDC</item>
+        <item>IBEDC</item>
+        <item>JED</item>
+        <item>EKEDC</item>
+    </string-array>
+
+
+</resources>

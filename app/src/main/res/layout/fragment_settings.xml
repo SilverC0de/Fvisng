@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/body"
+    android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/cmera_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_off"
+        android:text="Camera Permission" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/str_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_off"
+        android:text="External storage" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_off"
+        android:text="Notifications" />
+
+</LinearLayout>

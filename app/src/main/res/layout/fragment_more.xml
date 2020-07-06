@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="20dp"
+    android:background="@drawable/body"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@drawable/button_light"
+            android:textColor="@color/colorTextDark"
+            android:text="Loan above 100,000" />
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/or"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@drawable/button_light"
+            android:textColor="@color/colorTextDark"
+            android:text="Custom Investment" />
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/or"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@drawable/button_light"
+            android:textColor="@color/colorTextDark"
+            android:text="Real Estate Investment" />
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/or"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="4dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:background="@drawable/button_light"
+            android:textColor="@color/colorTextDark"
+            android:text="Place your adverts" />
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/or"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="4dp" />
+    </RelativeLayout>
+</LinearLayout>

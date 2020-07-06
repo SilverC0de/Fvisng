@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    tools:context=".ActivityOTP">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="32dp"
+            android:onClick="close"
+            android:src="@drawable/close_btn_dark" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="A verification code will be sent to your mobile number shortly, please enter the verification code in the box below"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_margin="20dp"
+            android:hint="*****"
+            android:inputType="number"
+            android:maxLength="5"
+            android:id="@+id/vCode"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColorHint="@color/colorTextHint"
+            android:textColor="@color/colorTextDark"
+            android:background="@drawable/editor" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="end"
+            android:id="@+id/status"
+            android:textSize="14sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Wait for OTP"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="10dp"
+            android:id="@+id/login"
+            android:paddingBottom="10dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/button_off"
+            style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/body"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="40dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/image"
+                android:scaleType="centerInside"
+                android:src="@drawable/fvislogo"/>
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/load"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:alpha=".94"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/load" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:textSize="14sp"
+            android:id="@+id/error"
+            android:textColor="@color/colorTextLight"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textSize="18sp"
+            android:id="@+id/signInMail"
+            android:inputType="textEmailAddress"
+            android:paddingStart="8dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:background="@drawable/editor"
+            android:textColor="@color/colorTextDark"
+            android:hint="Email address"
+            android:textColorHint="@color/colorTextHint"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signInPass"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:layout_margin="12dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:background="@drawable/editor"
+            android:hint="Password"
+            android:paddingStart="8dp"
+            android:textColorHint="@color/colorTextHint"
+            android:textColor="@color/colorTextDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:padding="6dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:textSize="14sp"
+            android:id="@+id/recover"
+            android:visibility="gone"
+            android:textColor="@color/colorTextLight"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Now"
+            android:padding="6dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:textSize="14sp"
+            android:id="@+id/register"
+            android:textColor="@color/colorText"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textColor="@color/colorPrimary"
+        android:paddingTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/login"
+        android:paddingBottom="10dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_dark"
+        style="?android:attr/borderlessButtonStyle"/>
+</RelativeLayout>

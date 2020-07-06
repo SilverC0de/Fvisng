@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item android:id="@+id/nav_item_wallet"
+        android:icon="@drawable/menu_wallet"
+        android:title="Wallet" />
+
+    <item android:id="@+id/nav_item_repay"
+        android:icon="@drawable/menu_wall"
+        android:title="Repay loan" />
+
+    <item android:id="@+id/nav_item_bills"
+        android:icon="@drawable/menu_billl"
+        android:title="Bills" />
+
+    <item android:id="@+id/nav_item_transfer"
+        android:icon="@drawable/menu_payb"
+        android:title="Transfer" />
+
+    <item android:id="@+id/nav_item_spin"
+        android:icon="@drawable/menu_invite"
+        android:title="Spin and win" />
+
+    <item android:id="@+id/nav_item_ref"
+        android:icon="@drawable/menu_invite"
+        android:title="Referrals" />
+
+    <item android:id="@+id/nav_item_sett"
+        android:icon="@drawable/menu_se"
+        android:title="Settings" />
+
+    <item android:id="@+id/nav_item_lohout"
+        android:icon="@drawable/menu_logout"
+        android:title="Logout" />
+
+</menu>

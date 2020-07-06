@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.premium.Fvisng"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.github.florent37:viewanimator:1.1.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:4.5.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.chaos.view:pinview:1.4.3'
+    implementation 'com.android.support:design:29.2.0'
+    implementation 'com.facebook.fresco:fresco:2.1.0'
+    implementation 'co.paystack.android:paystack:3.0.12'
+    implementation 'co.paystack.android.design.widget:pinpad:1.0.1'
+    implementation 'com.airbnb.android:lottie:3.4.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.7.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}
